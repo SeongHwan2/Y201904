@@ -23,7 +23,18 @@ public class Main {
 		System.out.println(결과값);
 		
 		//특수문자
-		System.out.println("안녕");
+		char single = '\''; //char는 작은따옴표를 사용해야함
+		String quote = "Hello \"홍길동!\"";
+		String root = "c:\\";
+		System.out.println(single);
+		System.out.println(quote);
+		System.out.println(root);
+		System.out.println("서울\t 대구\t 부산");
+		System.out.println("안녕하세요\n 이부분은 다음줄에");
+		System.out.println("\uD64D\uAE38\uB3D9");
+		
+		
+		
 	}
 	
 }

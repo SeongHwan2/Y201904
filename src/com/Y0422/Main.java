@@ -22,7 +22,8 @@ public class Main {
 		String 결과값 = 문자열 + (정수 + 정수 + 정수);//사칙연산에서 가장앞에 나오는 자료형에 결과값의 자료형도 따라간다.(변수도 사칙연산 가능!!)
 		System.out.println(결과값);
 		
-		
+		//특수문자
+		System.out.println("안녕");
 	}
 	
 }

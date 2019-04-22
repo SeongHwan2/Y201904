@@ -33,6 +33,14 @@ public class Main {
 		System.out.println("안녕하세요\n 이부분은 다음줄에");
 		System.out.println("\uD64D\uAE38\uB3D9");
 		
+		int x=5, y=5;
+		x++;
+		y--;
+		System.out.println("x=" + x + ",y=" + y);
+		x= y = 5;
+		++x;
+		--y;
+		System.out.println("x=" + x + ",y=" + y);
 		
 		
 	}

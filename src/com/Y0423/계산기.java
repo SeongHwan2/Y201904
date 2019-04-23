@@ -9,9 +9,31 @@ public class 계산기 {
 		 * 덧셈: int a, int b > a + b; > 결과리턴
 		 ****************************/
 		System.out.println(덧셈(5, 6));
+		System.out.println(뺄셈(5, 6));
+		System.out.println((double)나누기(10, 3));
+		System.out.println(나머지(25, 6));
+		
+		int a = 0;
+		System.out.println(++a);
+		System.out.println(a);
+		System.out.println(++a);
 	}
 	
+		
+		
 	static int 덧셈(int a, int b) {
 		return a + b;
+	}
+	
+	static int 뺄셈(int a, int b) {
+		return a - b;
+	}
+	
+	static int 나누기(int a, int b) {
+		return a / b;
+	}
+	
+	static int 나머지(int a, int b) {
+		return a % b;
 	}
 }

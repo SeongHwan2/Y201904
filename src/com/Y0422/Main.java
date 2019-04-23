@@ -1,5 +1,7 @@
 package com.Y0422;
 
+import com.Y0423.Var;
+
 public class Main {
 
 	public void main(String[] args) {
@@ -42,7 +44,9 @@ public class Main {
 		--y;
 		System.out.println("x=" + x + ",y=" + y);
 		
+		Var v = new Var();
 		
+		int s = v.state1;
 		
 	}
 	

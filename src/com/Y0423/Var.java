@@ -9,6 +9,11 @@ public class Var {
 //리턴유형  함수명(매계변수) 로직 구현
 // void   var()       {}	
 	
+	public int state1;
+	protected int state2;
+	int state3;
+	private int state4;
+	
 	public void var() {
 		
 		/*******************************************
@@ -37,5 +42,15 @@ public class Var {
 		a = 10; // 일반 자료형의 변수는 주소값 대신 담았을때의 값만 받기 때문에 a의 값을 변경해도 f의 값은 변경되지 않음. 
 		System.out.println(a);
 		System.out.println(f);
+		
+		a--; // 후위 연산자 
+		--a; // 전위 연산자 
+		++a;
+		a++;
+		
+	}
+
+	void var2(int a, int b) {
+		System.out.println(a + b);
 	}
 }

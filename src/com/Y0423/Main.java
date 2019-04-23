@@ -22,10 +22,12 @@ public class Main {
 	// 객체(class) 객체변수  대입    생성키워드     객체 생성자
 	//	Var         v     =     new       Var();
 		
-		Var v = new Var();
-		v.var();
+	//	Var v = new Var(); // 객체 생성
+	//	v.var(); // 메소드 호출
 		
-		Var.var(); //정적 메소드..!!
+		//Var.var(); //정적 메소드..!!
+		
+	//	new Var(); // 기본생성자 안에 메소드를 넣어서 기본생성자가 생성되면서 메소드를 불러오게 명령하였을때 사용...!!
 	}
 
 }

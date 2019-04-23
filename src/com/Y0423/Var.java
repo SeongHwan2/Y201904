@@ -2,12 +2,14 @@ package com.Y0423;
 
 public class Var {
 
-	public Var() {} //기본 생성자
+	public Var() {
+		var();
+	} //기본 생성자
 
 //리턴유형  함수명(매계변수) 로직 구현
 // void   var()       {}	
 	
-	public static void var() {
+	public void var() {
 		
 		/*******************************************
 		 *변수 사용법

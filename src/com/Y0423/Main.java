@@ -2,7 +2,7 @@ package com.Y0423;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		//형변환
 		System.out.println("변수 연습");
 		/****************************************

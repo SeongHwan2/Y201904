@@ -32,6 +32,9 @@ public class Main {
 		int i = v.state1;
 		
 		v.var2(5, 6);
+		
+		
+				
 	}
 
 }

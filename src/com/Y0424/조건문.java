@@ -17,8 +17,8 @@ public class 조건문 {
 	 *  
 	 * - switch문
 	 * switch(비교값)
-	 * case 값
-	 * default
+	 * case 값(고정된값)
+	 * default : 비교값이 case값에 없으면 실행
 	 *********************************/
 	
 	public void t1(int a) {
@@ -113,6 +113,60 @@ public class 조건문 {
 		
 		 return msg;
 	}
+	
+	public String t8(int a) {
+		String msg = "";
+		
+		switch (a) {
+		case 0:
+			msg = "전달 받은 값은 0 입니다.";
+			break;
+		default:
+			msg = "전달 받은 값은 case값에 없습니다.";
+			break;
+		}
+		
+		return msg;
+	}
 
-
+	public String t9(int a) {
+		String msg = "";
+		
+		switch(a) { //매개변수 값과 같은 값의 case부터 실행
+		case 0:
+			msg = msg + "0비교";
+		case 1:
+			msg = msg + "1비교";
+		case 2:
+			msg = msg +"2 비교 범위의 값입니다";
+			break;
+		default:
+			msg = "0 ~ 2 범위의 값이 아닙니다";
+			break;
+		}
+		return msg;
+	}
+	
+	public String t10(int score) {
+		String grade = "";
+		
+		switch(score/10) {
+		case 10:
+		case 9:
+			grade = "A";
+			break;
+		case 8:
+			grade = "B";
+			break;
+		case 7:
+			grade = "C";
+			break;
+		case 6:
+			grade = "D";
+			break;
+		default:
+			grade = "F";
+		}
+		return grade;
+	}
 }

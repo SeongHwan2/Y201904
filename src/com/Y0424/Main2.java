@@ -1,8 +1,10 @@
 package com.Y0424;
+import java.util.Scanner;
+
 
 public class Main2 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		조건문 t = new 조건문();
 		t.t1(11);
 		boolean r = t.t2(10); //해당 클래스에서 바로 출력하지 않고
@@ -22,6 +24,18 @@ public class Main2 {
 		
 		String msg3 = t.t7(1, 5);
 		System.out.println(msg3);
+		
+		String msg4 = t.t8(1);
+		System.out.println(msg4);
+		
+		String msg5 = t.t9(0);
+		System.out.println(msg5);
+		
+		System.out.println("점수를 입력하세요");
+		Scanner scan = new Scanner(System.in); //Console 창에서 입력값 받는 객체 생성
+		String msg6 = t.t10(scan.nextInt()); //Console 창에서 입력 받은 정수를 인자값으로 사용
+		scan.close(); //Scanner 객체 종료(삭제)
+		System.out.println(msg6);
 	}
 
 }

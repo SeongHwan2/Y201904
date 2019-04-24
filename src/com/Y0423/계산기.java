@@ -2,7 +2,7 @@ package com.Y0423;
 
 public class 계산기 {
 	
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		/****************************
 		 * 문제) 변수와 메소드를 이용하여 계산기를 만든다.
 		 * - 계산기 : 두개의 숫자를 이용하여 연산

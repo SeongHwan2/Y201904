@@ -15,7 +15,7 @@ public class Main4 {
 		ifex.IfEx1(score);
 		score = scan.nextInt();
 		ifex.IfEx2(score);
-		
+		scan.close();
 		
 	}
 }

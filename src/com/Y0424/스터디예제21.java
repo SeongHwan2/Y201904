@@ -53,6 +53,7 @@ public class 스터디예제21 {
 		if(num > 10) {
 			return;
 		}
+		System.out.print(num + "번학생의 시험 점수를 입력하세요 : ");
 		스터디예제21m m = new 스터디예제21m();
 		System.out.println(num + "번학생의 시험 결과는 " + m.grade(scan.nextInt()) + "입니다.");
 		num++;

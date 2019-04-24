@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class 스터디문제second {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		System.out.print("시험 점수를 입력하세요 : ");
 		
 		Scanner scan = new Scanner(System.in);

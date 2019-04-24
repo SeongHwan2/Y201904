@@ -14,6 +14,11 @@ public class 조건문 {
 	 *  < : 작다
 	 *  >= : 크거나 같다 
 	 *  <= : 작거나 같다 
+	 *  
+	 * - switch문
+	 * switch(비교값)
+	 * case 값
+	 * default
 	 *********************************/
 	
 	public void t1(int a) {

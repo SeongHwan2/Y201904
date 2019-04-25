@@ -14,6 +14,7 @@ public class Main {
 	
 	
 	
+	
 	//int a; // 클래스 전역
 	
 	//void aa() {

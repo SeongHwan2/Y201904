@@ -7,7 +7,7 @@ public class 스터디예제21 {
 	static int num = 1;
 	static Scanner scan = null;
 	
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		scan = new Scanner(System.in);
 		학생();
 		

@@ -22,6 +22,8 @@ public class 스터디문제second {
 			grade = "F";
 		}
 		
+		scan.close();
+		
 		System.out.println("시험 결과는 : " + grade + " 입니다.");
 	}
 

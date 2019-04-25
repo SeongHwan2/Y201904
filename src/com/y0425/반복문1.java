@@ -41,5 +41,95 @@ public class 반복문1 {
 		}
 	}
 	
+	public void t5() {
+		for(int i = 0; i < 5; i++) {// 0 ~ 4 까지 대입
+			
+			for(int j = 0; j <= i; j++) {
+				// j = 0, i = 0 >>                        || *
+				// j = 0; i = 1 >> * || j = 1, i = 1 >> * || **
+				// j = 0; i = 2 >> * || j = 1, i = 2 >> * || ***
+				//                      j = 2, i = 2 >> *
+				if(j % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+				
+			}
+			System.out.println("");
+			}
+		}
 	
+	public void t6() {
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j <= i; j++) {
+				if((i - j) % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+				
+			}
+			System.out.println();
+		}
+	}
+	
+	public void t7() {
+		int t = 0;
+		for(int i = 0; i < 9; i++) {// 0 1 2 3 4 3 2 1 0
+			if(i > 4) {
+				t = t - 2;
+			}
+			for(int j = 0; j <= t; j++) {
+				if(j % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+			}
+			t++;
+			System.out.println();
+		}
+	}
+	
+	public void t8() {
+/*		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j <= i; j++) {
+				if((i - j) % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+			}
+			System.out.println();
+		}
+		
+		for(int i = 0; i < 4; i++) {
+			for(int j = 3; j >= i; j--) {
+				if((j - i) % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+			}
+			System.out.println();
+		}*/
+		int t = 0;
+		for(int i = 0; i < 9; i++) {// 0 1 2 3 4 3 2 1 0
+			if(i > 4) {
+				t = t - 2;
+			}
+			for(int j = 0; j <= t; j++) {
+				if((t -j) % 2 == 0) {
+					System.out.print("★");
+				}else {
+					System.out.print("☆");
+				}
+			}
+			t++;
+			System.out.println();
+		}
+	}
 }
+
+

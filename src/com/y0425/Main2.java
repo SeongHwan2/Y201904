@@ -2,7 +2,7 @@ package com.y0425;
 
 public class Main2 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		/**********************************
 		 * 반복문 연습 : for문, while문
 		 **********************************/
@@ -13,6 +13,10 @@ public class Main2 {
 		f.t2(2);
 		f.t3(1, 3);
 		f.t4();
+		f.t5();
+		f.t6();
+		f.t7();
+		f.t8();
 	}
 
 }

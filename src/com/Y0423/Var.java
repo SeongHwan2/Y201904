@@ -12,7 +12,7 @@ public class Var {
 	public int state1;
 	protected int state2;
 	int state3;
-	private int state4;
+	//private int state4;
 	
 	public void var() {
 		

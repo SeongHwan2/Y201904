@@ -32,7 +32,7 @@ public class Test {
 		
 		System.out.println(num + "번학생의 시험 결과는" + score + "입니다.");
 		num++;
-		//scan.close();
+		scan.close();
 		평가(); //재귀
 	}
 }

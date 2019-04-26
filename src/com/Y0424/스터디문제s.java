@@ -15,8 +15,7 @@ public class 스터디문제s {
 		}else {
 			msg = "Minus";
 		}
-		
+		scan.close();
 		System.out.println("결과는 : " + msg + " 입니다.");
 	}
-
 }

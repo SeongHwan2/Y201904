@@ -104,5 +104,18 @@ public class 반복문 {
 		}
 		scan.close();		
 	}
+	
+	public void lv6() {
+		for(int y = 0; y <= 10; y++) {
+			for(int x = 0; x <= 10; x++) {
+				if(y % 5 == 0 || x % 5 == 0 || x == y || x + y == 10) {
+					System.out.print(" ■ ");
+				}else {
+					System.out.print(" □ ");
+				}
+			}
+			System.out.println();
+		}
+	}
 }	
 	

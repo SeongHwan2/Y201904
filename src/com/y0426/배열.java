@@ -1,6 +1,5 @@
 package com.y0426;
 
-import java.util.Scanner;
 
 public class 배열 {
 	public void t1() {
@@ -98,8 +97,6 @@ public class 배열 {
 		String[][] 요일 = new String[7][5];
 		// 현재 달의 달력 데이터를 요일 배열에 데이터를 담아 보세요.
 		// 출력 오늘 요일을 표현할것.
-		Scanner scan = new Scanner(System.in);
-		
 		String k = "";
 		for(int i = 0; i < 요일.length; i++) {
 			for(int j = 0; j < 요일[i].length; j++) {

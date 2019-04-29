@@ -1,5 +1,6 @@
 package com.y0426;
 
+import java.util.Scanner;
 
 public class 배열 {
 	public void t1() {
@@ -97,34 +98,69 @@ public class 배열 {
 		String[][] 요일 = new String[7][5];
 		// 현재 달의 달력 데이터를 요일 배열에 데이터를 담아 보세요.
 		// 출력 오늘 요일을 표현할것.
-		String k = "";
-		for(int i = 0; i < 요일.length; i++) {
-			for(int j = 0; j < 요일[i].length; j++) {
-				if(i == 0) {
-					k = "월 ";
-				}else if(i == 1) {
-					k = "화 ";
-				}else if(i == 2) {
-					k = "수 ";
-				}else if(i == 3) {
-					k = "목 ";
-				}else if(i == 4) {
-					k = "금 ";
-				}else if(i == 5) {
-					k = "토 ";
-				}else {
-					k = "일 ";
-				}
-				
-				if(i > 1 && j == 4) {
-					break;
-				}
-				
-				요일[i][j] = k;
-				System.out.print(요일[i][j]);
-				
+//		String k = "";
+//		for(int i = 0; i < 요일.length; i++) {
+//			for(int j = 0; j < 요일[i].length; j++) {
+//				if(i == 0) {
+//					k = "월 ";
+//				}else if(i == 1) {
+//					k = "화 ";
+//				}else if(i == 2) {
+//					k = "수 ";
+//				}else if(i == 3) {
+//					k = "목 ";
+//				}else if(i == 4) {
+//					k = "금 ";
+//				}else if(i == 5) {
+//					k = "토 ";
+//				}else {
+//					k = "일 ";
+//				}
+//				
+//				if(i > 1 && j == 4) {
+//					break;
+//				}
+//				
+//				요일[i][j] = k;
+//				System.out.print(요일[i][j]);
+//				System.out.println();
+//				System.out.println("Today :" + );
+//				
+//			}
+//			System.out.println();
+//		}
+		// 7 5
+		
+		String[] day = new String[7];
+		day[0] = "월";
+		day[1] = "화";
+		day[2] = "수";
+		day[3] = "목";
+		day[4] = "금";
+		day[5] = "토";
+		day[6] = "일";
+		
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextInt();
+		
+		for(int y = 0; y < 요일[0].length; y++) {
+			for(int x = 0; x < 요일.length; x++) {
+			if((y*7)+x >= 30) {break;}
+				요일[x][y] = day[x];	
 			}
 			System.out.println();
 		}
+		System.out.println();
+		
+		for(int y = 0; y < 요일.length; y++) {
+			for(int x = 0; x < 요일[y].length; x++) {
+				System.out.print(요일[y][x]);
+			}
+			System.out.println();
+		}
+		System.out.println("Today : " + day[(a%7)-1]);
+		}
+		
+		
 	}
-}
+

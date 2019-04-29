@@ -21,14 +21,13 @@ public class calen {
 				요일[y][x] = day[y];
 				
 				System.out.print(요일[y][x]);
-				
-				
+					
 			}
 			System.out.println();
 			
 		}
 		System.out.println();
-		System.out.println("Today : " + day[(a%7)-1]);
+		System.out.println("Today : " + day[a%7]);
 	}
 
 }

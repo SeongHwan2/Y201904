@@ -132,13 +132,8 @@ public class 배열 {
 		// 7 5
 		
 		String[] day = new String[7];
-		day[0] = "월";
-		day[1] = "화";
-		day[2] = "수";
-		day[3] = "목";
-		day[4] = "금";
-		day[5] = "토";
-		day[6] = "일";
+		day[0] = "월"; day[1] = "화"; day[2] = "수"; day[3] = "목"; day[4] = "금";
+		day[5] = "토"; day[6] = "일";
 		
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
@@ -158,7 +153,7 @@ public class 배열 {
 			}
 			System.out.println();
 		}
-		System.out.println("Today : " + day[(a%7)-1]);
+		System.out.println("Today : " + day[(a%7)]);
 		}
 		
 		

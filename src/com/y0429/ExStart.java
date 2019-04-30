@@ -32,15 +32,14 @@ public class ExStart {
 					result = true;
 				}
 				
-				
-				if(y==aY && x==aX) {
+				if (y == 8 && x == 1) {
+					System.out.print(" ▲ ");
+				}else if(y==aY && x==aX) {
 					System.out.print(" ㉿ ");
 				}else if(map[y][x] == 1) {
 					System.out.print(" □ ");
 				}else if(map[y][x] == 0) {
 					System.out.print(" ■ ");	
-				}else if(y == 8 && x == 1) {
-					System.out.print(" ★ ");
 				}
 				
 				if(aX == 1 && aY == 8) {

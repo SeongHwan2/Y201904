@@ -9,8 +9,8 @@ public class Main {
 //		lv.lv2();
 //		lv.lv3();
 //		lv.lv4();
-//		lv.lv5();
-		lv.lv6();
+		lv.lv5();
+//		lv.lv6();
 	}
 
 }

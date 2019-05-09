@@ -26,11 +26,11 @@ public class ExStart {
 		for(int y = 0; y < map.length; y++) {
 			for(int x = 0; x < map[y].length; x++) {
 				
-				if(map[aY][aX] == 0) {
-					aY = bY; 
-					aX = bX;
-					result = true;
-				}
+//				if(map[aY][aX] == 0) {
+//					aY = bY; 
+//					aX = bX;
+//					result = true;
+//				}
 				
 				if (y == 8 && x == 1) {
 					System.out.print(" ▲ ");

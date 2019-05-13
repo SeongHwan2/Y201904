@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class calen {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		String[][] 요일 = new String[7][5];
 		
 		Scanner scan = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class calen {
 			
 		}
 		System.out.println();
-		System.out.println("Today : " + day[a%7]);
+		System.out.println("Today : " + day[a%7-1]);
 	}
 
 }

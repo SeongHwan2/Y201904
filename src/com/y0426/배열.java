@@ -153,7 +153,7 @@ public class 배열 {
 			}
 			System.out.println();
 		}
-		System.out.println("Today : " + day[(a%7)]);
+		System.out.println("Today : " + day[(a%7)-1]);
 		}
 		
 		

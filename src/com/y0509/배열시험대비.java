@@ -244,8 +244,6 @@ public class 배열시험대비 {
 			}
 			System.out.println(y + ", " + x + ", " + bY + ", " + bX);
 			
-			
-			
 			if(김은채p(y, x, bY, bX)) {
 				y = bY;
 				x = bX;
@@ -254,18 +252,15 @@ public class 배열시험대비 {
 				bX = x;
 			}
 			if(y == 2 && x == 2) {
-				System.out.println("머리조심을 입력하세요\n");
-				System.out.println();
+				System.out.println("머리조심을 입력하세요");
 				String input1 = scan.next();
-				if("머리조심".equals(input1)) {
+				if(input1.equals("머리조심")) {
 					System.out.println("통과");
-				}//else {
-	//				System.out.println("다시 입력하세요!!");
-//				}
+				}else {
+					System.out.println("다시 입력하세요!!");
+				}
 			}
-			
-		}
-			
+		}	
 	}
 }
 

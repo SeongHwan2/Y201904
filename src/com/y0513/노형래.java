@@ -88,7 +88,7 @@ public class 노형래 {
 			}
 			map(y,x,bY,bX);
 			if(die) {
-				System.out.println("죽었다..");
+				System.out.println("똥밟았어요!");
 				break;}
 			
 			

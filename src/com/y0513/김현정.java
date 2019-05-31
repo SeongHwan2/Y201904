@@ -77,7 +77,7 @@ public class 김현정 {
 			if(map(y,x,bY,bX)) {
 				y = bY;
 				x = bX;
-				map(y,x,bY,bX);
+//				map(y,x,bY,bX);
 			}else {
 				bY = y;
 				bX = x;
@@ -92,6 +92,7 @@ public class 김현정 {
 				System.out.println("끝");
 				break;
 			}
+			scan.close();
 		}
 	}
 	public void start() {

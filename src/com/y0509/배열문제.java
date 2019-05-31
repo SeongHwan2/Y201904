@@ -2,11 +2,11 @@ package com.y0509;
 
 import java.util.Scanner;
 
-public class 배열시험대비 {
+public class 배열문제 {
 	
 	
 	
-	public boolean e1_(int aY, int aX, int bY,int bX){ // 출력부분
+	public boolean e1_(int aY, int aX, int bY,int bX){ // 출력부분 // 염종찬
 		boolean result = true;
 		int[][] map = {
 				{0,0,0,0,0},
@@ -176,7 +176,7 @@ public class 배열시험대비 {
 		scan.close();
 	}
 	
-	public boolean 김은채p(int y, int x, int bY, int bX) {
+public boolean 김은채p(int y, int x, int bY, int bX) {
 		
 		int map[][] = {
 				{0,0,0,0,0,0,0,0},
@@ -260,8 +260,11 @@ public class 배열시험대비 {
 					System.out.println("다시 입력하세요!!");
 				}
 			}
-		}	
+			scan.close();
+		}
 	}
+
+	
 }
 
 

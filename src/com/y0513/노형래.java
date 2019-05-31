@@ -80,8 +80,6 @@ public class 노형래 {
 				if(dd[i][0] >= 9) {
 						dd[i][0] -= 8;
 				}else if(y==dd[i][0] && x==dd[i][1]) {
-					
-					
 					die = true;
 				}
 				
@@ -89,12 +87,10 @@ public class 노형래 {
 			map(y,x,bY,bX);
 			if(die) {
 				System.out.println("똥밟았어요!");
-				break;}
-			
-			
+				break;
+			}
 		}
 	}
-	
 }
 		
 

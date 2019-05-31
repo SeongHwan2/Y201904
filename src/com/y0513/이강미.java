@@ -80,7 +80,7 @@ public class 이강미 {
 			if(map(y,x,bY,bX)) {
 				y = bY;
 				x = bX;
-				map(y,x,bY,bX);
+				
 			}else {
 				bY = y;
 				bX = x;
@@ -94,7 +94,9 @@ public class 이강미 {
 			}else if(y==8 && x == 8){
 				System.out.println("하트를 다 먹고 오세요");
 			}
+//			map(y,x,bY,bX);
 //			System.out.println(count);
 		}
+		scan.close();
 	}
 }

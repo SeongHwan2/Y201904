@@ -1,6 +1,5 @@
 package com.y0513;
 
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -90,7 +89,9 @@ public class 조은별 {
 			tetList = checkLine(tetList);
 
 			print(tetList);
+			scan.close();
 		}
+
 	}
 
 	public int[][] checkLine(int[][] tetList) {

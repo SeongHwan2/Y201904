@@ -97,6 +97,6 @@ public class ExStart {
 				break;
 			}
 		}
-		
+		scan.close();
 	}
 }
